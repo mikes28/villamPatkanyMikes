@@ -1,0 +1,35 @@
+Előkészület
+
+Vite-es, typescript-es alkalmazás.
+Bónusz feladat #0: Bootstrap NEM használható, saját CSS-t kell írni.
+
+Adatszerkezet
+
+"ElectricRat" osztály, az alábbi adattagokkal:
+name: szöveg, nem lehet üres
+atk: pozitív egész
+hp: pozitív egész
+Konstruktor, ami a három adattagot beállítja.
+Érvénytelen bemenet esetén dobj kivételt!
+
+Bónusz feladat #1: Készíts az osztály konstruktorához vitest egységteszteket!
+
+Oldal
+
+Készíts egy szöveges mezőt, ahol a villámpatkány nevét meg lehet adni. A maradék adattagokat véletlenül generáld:
+atk: 10-20
+hp: 50-100
+A konstruktor hibáit kezeld!
+Fűzd hozzá egy TS listához, az adatokat pedig jelenítsd meg az oldalon kártyás formában! Figyelj a reszponzivitásra!
+
+Bónusz feladat #2: Az új kártyák animálva (pl. fade in) jelenjenek meg!
+
+Export
+
+Egészítsd ki az osztályt egy toCSV() függvénnyel, amely egy sornyi adatot ad vissza, ahol az értékek ;-vel vannak elválasztva.
+Készíts egy export gombot, amely egy többsoros szöveg mezőben megjeleníti a teljes CSV-t (címsorostul), hogy a felhasználó kimásolhassa.
+CSV lib-et nem kell használni!
+
+Bónusz feladat #3: Készíts egységteszteket a toCSV függvényhez is!
+
+Bónusz bónusz (önálló utánanézést igényel): Oldd meg, hogy az export gombra kattintáskor ténylegesen egy elmenthető CSV fájlt kapj eredményül (a böngésző letöltés/mentés ablakán keresztül).
